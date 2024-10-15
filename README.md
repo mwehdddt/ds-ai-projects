@@ -6,7 +6,7 @@ Dataset : https://www.kaggle.com/datasets/bobbyscience/league-of-legends-diamond
 
 This dataset contains the first 10min. stats of approx. 10k League of Legends ranked games (SOLO QUEUE) from a high ELO (DIAMOND I to MASTER). Players have roughly the same level. 
 
-The goal is to predict which team will win the game 
+Goal : Predict which team will win the game 
 
 
 ## 002 MNIST Handwritten Digits Classification
@@ -15,3 +15,10 @@ Dataset: https://yann.lecun.com/exdb/mnist/
 The MNIST dataset is a collection of 70,000 images of handwritten digits, each represented as a 28x28 pixel grayscale image.
 
 Goal: Build a classification model to correctly identify digits (0-9) from the images.
+
+## 003 Student Admissions
+Dataset: https://www.kaggle.com/datasets/mohansacharya/graduate-admissions
+
+This dataset contains information about students' academic records and other factors influencing admissions into graduate programs.
+
+Goal: Develop a model to predict the likelihood of admission based on the students' profiles, and identify the key features that significantly impact admission outcomes.
