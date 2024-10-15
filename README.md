@@ -1,0 +1,1 @@
+Some datascience/ai practice on kaggle datasets
