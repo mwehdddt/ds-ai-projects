@@ -7,3 +7,11 @@ Dataset : https://www.kaggle.com/datasets/bobbyscience/league-of-legends-diamond
 This dataset contains the first 10min. stats of approx. 10k League of Legends ranked games (SOLO QUEUE) from a high ELO (DIAMOND I to MASTER). Players have roughly the same level. 
 
 The goal is to predict which team will win the game 
+
+
+## 002 MNIST Handwritten Digits Classification
+Dataset: https://yann.lecun.com/exdb/mnist/
+
+The MNIST dataset is a collection of 70,000 images of handwritten digits, each represented as a 28x28 pixel grayscale image.
+
+Goal: Build a classification model to correctly identify digits (0-9) from the images.
