@@ -1,4 +1,4 @@
-### Data Science and AI Projects
+# Data Science and AI Projects
 This repository showcases various data science and artificial intelligence projects utilizing Kaggle datasets. This collection of Jupyter notebooks aims to explore different aspects of data analysis, machine learning, and deep learning in order to deepen my understanding of AI and data science by applying theoretical concepts to practical projects.
 
 ## 001 League of Legends wins predection 
