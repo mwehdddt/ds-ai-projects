@@ -1042,3 +1042,198 @@ Alternately, you can install this by running `pip install pycaret[models]`
                            validation_fraction=0.1, verbose=0,
                            warm_start=False)
 2024-10-15 11:14:47,221:INFO:tune_model() successfully completed......................................
+2024-10-15 11:25:40,898:INFO:Initializing evaluate_model()
+2024-10-15 11:25:40,898:INFO:evaluate_model(self=<pycaret.classification.oop.ClassificationExperiment object at 0x000002AFAC612FD0>, estimator=GradientBoostingClassifier(ccp_alpha=0.0, criterion='friedman_mse', init=None,
+                           learning_rate=0.001, loss='log_loss', max_depth=5,
+                           max_features='sqrt', max_leaf_nodes=None,
+                           min_impurity_decrease=0.001, min_samples_leaf=2,
+                           min_samples_split=5, min_weight_fraction_leaf=0.0,
+                           n_estimators=170, n_iter_no_change=None,
+                           random_state=224, subsample=0.45, tol=0.0001,
+                           validation_fraction=0.1, verbose=0,
+                           warm_start=False), fold=None, fit_kwargs=None, plot_kwargs=None, feature_name=None, groups=None)
+2024-10-15 11:25:40,959:INFO:Initializing plot_model()
+2024-10-15 11:25:40,967:INFO:plot_model(self=<pycaret.classification.oop.ClassificationExperiment object at 0x000002AFAC612FD0>, estimator=GradientBoostingClassifier(ccp_alpha=0.0, criterion='friedman_mse', init=None,
+                           learning_rate=0.001, loss='log_loss', max_depth=5,
+                           max_features='sqrt', max_leaf_nodes=None,
+                           min_impurity_decrease=0.001, min_samples_leaf=2,
+                           min_samples_split=5, min_weight_fraction_leaf=0.0,
+                           n_estimators=170, n_iter_no_change=None,
+                           random_state=224, subsample=0.45, tol=0.0001,
+                           validation_fraction=0.1, verbose=0,
+                           warm_start=False), plot=pipeline, scale=1, save=False, fold=StratifiedKFold(n_splits=10, random_state=None, shuffle=False), fit_kwargs={}, plot_kwargs=None, groups=None, feature_name=None, label=False, verbose=False, system=True, display=None, display_format=None)
+2024-10-15 11:25:40,967:INFO:Checking exceptions
+2024-10-15 11:25:40,978:INFO:Preloading libraries
+2024-10-15 11:25:41,029:INFO:Copying training dataset
+2024-10-15 11:25:41,029:INFO:Plot type: pipeline
+2024-10-15 11:25:41,510:INFO:Visual Rendered Successfully
+2024-10-15 11:25:41,693:INFO:plot_model() successfully completed......................................
+2024-10-15 11:25:48,972:INFO:Initializing plot_model()
+2024-10-15 11:25:48,972:INFO:plot_model(self=<pycaret.classification.oop.ClassificationExperiment object at 0x000002AFAC612FD0>, estimator=GradientBoostingClassifier(ccp_alpha=0.0, criterion='friedman_mse', init=None,
+                           learning_rate=0.001, loss='log_loss', max_depth=5,
+                           max_features='sqrt', max_leaf_nodes=None,
+                           min_impurity_decrease=0.001, min_samples_leaf=2,
+                           min_samples_split=5, min_weight_fraction_leaf=0.0,
+                           n_estimators=170, n_iter_no_change=None,
+                           random_state=224, subsample=0.45, tol=0.0001,
+                           validation_fraction=0.1, verbose=0,
+                           warm_start=False), plot=confusion_matrix, scale=1, save=False, fold=StratifiedKFold(n_splits=10, random_state=None, shuffle=False), fit_kwargs={}, plot_kwargs=None, groups=None, feature_name=None, label=False, verbose=False, system=True, display=None, display_format=None)
+2024-10-15 11:25:48,972:INFO:Checking exceptions
+2024-10-15 11:25:49,000:INFO:Preloading libraries
+2024-10-15 11:25:49,022:INFO:Copying training dataset
+2024-10-15 11:25:49,022:INFO:Plot type: confusion_matrix
+2024-10-15 11:25:49,101:INFO:Fitting Model
+2024-10-15 11:25:49,101:WARNING:c:\Users\El BAR\Documents\ds_projects\env\Lib\site-packages\sklearn\base.py:493: UserWarning: X does not have valid feature names, but GradientBoostingClassifier was fitted with feature names
+2024-10-15 11:25:49,101:WARNING:  warnings.warn(
+2024-10-15 11:25:49,101:INFO:Scoring test/hold-out set
+2024-10-15 11:25:49,320:INFO:Visual Rendered Successfully
+2024-10-15 11:25:49,522:INFO:plot_model() successfully completed......................................
+2024-10-15 11:25:52,362:INFO:Initializing plot_model()
+2024-10-15 11:25:52,362:INFO:plot_model(self=<pycaret.classification.oop.ClassificationExperiment object at 0x000002AFAC612FD0>, estimator=GradientBoostingClassifier(ccp_alpha=0.0, criterion='friedman_mse', init=None,
+                           learning_rate=0.001, loss='log_loss', max_depth=5,
+                           max_features='sqrt', max_leaf_nodes=None,
+                           min_impurity_decrease=0.001, min_samples_leaf=2,
+                           min_samples_split=5, min_weight_fraction_leaf=0.0,
+                           n_estimators=170, n_iter_no_change=None,
+                           random_state=224, subsample=0.45, tol=0.0001,
+                           validation_fraction=0.1, verbose=0,
+                           warm_start=False), plot=threshold, scale=1, save=False, fold=StratifiedKFold(n_splits=10, random_state=None, shuffle=False), fit_kwargs={}, plot_kwargs=None, groups=None, feature_name=None, label=False, verbose=False, system=True, display=None, display_format=None)
+2024-10-15 11:25:52,362:INFO:Checking exceptions
+2024-10-15 11:25:52,378:INFO:Preloading libraries
+2024-10-15 11:25:52,412:INFO:Copying training dataset
+2024-10-15 11:25:52,412:INFO:Plot type: threshold
+2024-10-15 11:25:52,492:INFO:Fitting Model
+2024-10-15 11:26:11,796:INFO:Initializing evaluate_model()
+2024-10-15 11:26:11,796:INFO:evaluate_model(self=<pycaret.classification.oop.ClassificationExperiment object at 0x000002AFAC612FD0>, estimator=GradientBoostingClassifier(ccp_alpha=0.0, criterion='friedman_mse', init=None,
+                           learning_rate=0.001, loss='log_loss', max_depth=5,
+                           max_features='sqrt', max_leaf_nodes=None,
+                           min_impurity_decrease=0.001, min_samples_leaf=2,
+                           min_samples_split=5, min_weight_fraction_leaf=0.0,
+                           n_estimators=170, n_iter_no_change=None,
+                           random_state=224, subsample=0.45, tol=0.0001,
+                           validation_fraction=0.1, verbose=0,
+                           warm_start=False), fold=None, fit_kwargs=None, plot_kwargs=None, feature_name=None, groups=None)
+2024-10-15 11:26:11,837:INFO:Initializing plot_model()
+2024-10-15 11:26:11,837:INFO:plot_model(self=<pycaret.classification.oop.ClassificationExperiment object at 0x000002AFAC612FD0>, estimator=GradientBoostingClassifier(ccp_alpha=0.0, criterion='friedman_mse', init=None,
+                           learning_rate=0.001, loss='log_loss', max_depth=5,
+                           max_features='sqrt', max_leaf_nodes=None,
+                           min_impurity_decrease=0.001, min_samples_leaf=2,
+                           min_samples_split=5, min_weight_fraction_leaf=0.0,
+                           n_estimators=170, n_iter_no_change=None,
+                           random_state=224, subsample=0.45, tol=0.0001,
+                           validation_fraction=0.1, verbose=0,
+                           warm_start=False), plot=pipeline, scale=1, save=False, fold=StratifiedKFold(n_splits=10, random_state=None, shuffle=False), fit_kwargs={}, plot_kwargs=None, groups=None, feature_name=None, label=False, verbose=False, system=True, display=None, display_format=None)
+2024-10-15 11:26:11,837:INFO:Checking exceptions
+2024-10-15 11:26:11,854:INFO:Preloading libraries
+2024-10-15 11:26:11,881:INFO:Copying training dataset
+2024-10-15 11:26:11,881:INFO:Plot type: pipeline
+2024-10-15 11:26:12,062:INFO:Visual Rendered Successfully
+2024-10-15 11:26:12,409:INFO:plot_model() successfully completed......................................
+2024-10-15 11:26:12,446:INFO:Initializing plot_model()
+2024-10-15 11:26:12,446:INFO:plot_model(self=<pycaret.classification.oop.ClassificationExperiment object at 0x000002AFAC612FD0>, estimator=GradientBoostingClassifier(ccp_alpha=0.0, criterion='friedman_mse', init=None,
+                           learning_rate=0.001, loss='log_loss', max_depth=5,
+                           max_features='sqrt', max_leaf_nodes=None,
+                           min_impurity_decrease=0.001, min_samples_leaf=2,
+                           min_samples_split=5, min_weight_fraction_leaf=0.0,
+                           n_estimators=170, n_iter_no_change=None,
+                           random_state=224, subsample=0.45, tol=0.0001,
+                           validation_fraction=0.1, verbose=0,
+                           warm_start=False), plot=feature, scale=1, save=False, fold=StratifiedKFold(n_splits=10, random_state=None, shuffle=False), fit_kwargs={}, plot_kwargs=None, groups=None, feature_name=None, label=False, verbose=False, system=True, display=None, display_format=None)
+2024-10-15 11:26:12,446:INFO:Checking exceptions
+2024-10-15 11:26:12,470:INFO:Preloading libraries
+2024-10-15 11:26:12,505:INFO:Copying training dataset
+2024-10-15 11:26:12,505:INFO:Plot type: feature
+2024-10-15 11:26:12,505:WARNING:No coef_ found. Trying feature_importances_
+2024-10-15 11:26:12,938:INFO:Visual Rendered Successfully
+2024-10-15 11:26:13,179:INFO:plot_model() successfully completed......................................
+2024-10-15 11:26:41,184:INFO:Initializing plot_model()
+2024-10-15 11:26:41,184:INFO:plot_model(self=<pycaret.classification.oop.ClassificationExperiment object at 0x000002AFAC612FD0>, estimator=GradientBoostingClassifier(ccp_alpha=0.0, criterion='friedman_mse', init=None,
+                           learning_rate=0.001, loss='log_loss', max_depth=5,
+                           max_features='sqrt', max_leaf_nodes=None,
+                           min_impurity_decrease=0.001, min_samples_leaf=2,
+                           min_samples_split=5, min_weight_fraction_leaf=0.0,
+                           n_estimators=170, n_iter_no_change=None,
+                           random_state=224, subsample=0.45, tol=0.0001,
+                           validation_fraction=0.1, verbose=0,
+                           warm_start=False), plot=pr, scale=1, save=False, fold=StratifiedKFold(n_splits=10, random_state=None, shuffle=False), fit_kwargs={}, plot_kwargs=None, groups=None, feature_name=None, label=False, verbose=False, system=True, display=None, display_format=None)
+2024-10-15 11:26:41,184:INFO:Checking exceptions
+2024-10-15 11:26:41,209:INFO:Preloading libraries
+2024-10-15 11:26:41,243:INFO:Copying training dataset
+2024-10-15 11:26:41,243:INFO:Plot type: pr
+2024-10-15 11:26:41,335:INFO:Fitting Model
+2024-10-15 11:26:41,335:WARNING:c:\Users\El BAR\Documents\ds_projects\env\Lib\site-packages\sklearn\base.py:493: UserWarning: X does not have valid feature names, but GradientBoostingClassifier was fitted with feature names
+2024-10-15 11:26:41,335:WARNING:  warnings.warn(
+2024-10-15 11:26:41,335:INFO:Scoring test/hold-out set
+2024-10-15 11:26:41,643:INFO:Visual Rendered Successfully
+2024-10-15 11:26:41,841:INFO:plot_model() successfully completed......................................
+2024-10-15 11:26:57,070:INFO:Initializing plot_model()
+2024-10-15 11:26:57,070:INFO:plot_model(self=<pycaret.classification.oop.ClassificationExperiment object at 0x000002AFAC612FD0>, estimator=GradientBoostingClassifier(ccp_alpha=0.0, criterion='friedman_mse', init=None,
+                           learning_rate=0.001, loss='log_loss', max_depth=5,
+                           max_features='sqrt', max_leaf_nodes=None,
+                           min_impurity_decrease=0.001, min_samples_leaf=2,
+                           min_samples_split=5, min_weight_fraction_leaf=0.0,
+                           n_estimators=170, n_iter_no_change=None,
+                           random_state=224, subsample=0.45, tol=0.0001,
+                           validation_fraction=0.1, verbose=0,
+                           warm_start=False), plot=parameter, scale=1, save=False, fold=StratifiedKFold(n_splits=10, random_state=None, shuffle=False), fit_kwargs={}, plot_kwargs=None, groups=None, feature_name=None, label=False, verbose=False, system=True, display=None, display_format=None)
+2024-10-15 11:26:57,073:INFO:Checking exceptions
+2024-10-15 11:26:57,086:INFO:Preloading libraries
+2024-10-15 11:26:57,112:INFO:Copying training dataset
+2024-10-15 11:26:57,112:INFO:Plot type: parameter
+2024-10-15 11:26:57,112:INFO:Visual Rendered Successfully
+2024-10-15 11:26:57,253:INFO:plot_model() successfully completed......................................
+2024-10-15 11:27:05,908:INFO:Initializing plot_model()
+2024-10-15 11:27:05,908:INFO:plot_model(self=<pycaret.classification.oop.ClassificationExperiment object at 0x000002AFAC612FD0>, estimator=GradientBoostingClassifier(ccp_alpha=0.0, criterion='friedman_mse', init=None,
+                           learning_rate=0.001, loss='log_loss', max_depth=5,
+                           max_features='sqrt', max_leaf_nodes=None,
+                           min_impurity_decrease=0.001, min_samples_leaf=2,
+                           min_samples_split=5, min_weight_fraction_leaf=0.0,
+                           n_estimators=170, n_iter_no_change=None,
+                           random_state=224, subsample=0.45, tol=0.0001,
+                           validation_fraction=0.1, verbose=0,
+                           warm_start=False), plot=class_report, scale=1, save=False, fold=StratifiedKFold(n_splits=10, random_state=None, shuffle=False), fit_kwargs={}, plot_kwargs=None, groups=None, feature_name=None, label=False, verbose=False, system=True, display=None, display_format=None)
+2024-10-15 11:27:05,908:INFO:Checking exceptions
+2024-10-15 11:27:05,924:INFO:Preloading libraries
+2024-10-15 11:27:05,958:INFO:Copying training dataset
+2024-10-15 11:27:05,958:INFO:Plot type: class_report
+2024-10-15 11:27:06,053:INFO:Fitting Model
+2024-10-15 11:27:06,053:WARNING:c:\Users\El BAR\Documents\ds_projects\env\Lib\site-packages\sklearn\base.py:493: UserWarning: X does not have valid feature names, but GradientBoostingClassifier was fitted with feature names
+2024-10-15 11:27:06,053:WARNING:  warnings.warn(
+2024-10-15 11:27:06,053:INFO:Scoring test/hold-out set
+2024-10-15 11:27:06,482:INFO:Visual Rendered Successfully
+2024-10-15 11:27:06,659:INFO:plot_model() successfully completed......................................
+2024-10-15 11:27:17,994:INFO:Initializing plot_model()
+2024-10-15 11:27:17,994:INFO:plot_model(self=<pycaret.classification.oop.ClassificationExperiment object at 0x000002AFAC612FD0>, estimator=GradientBoostingClassifier(ccp_alpha=0.0, criterion='friedman_mse', init=None,
+                           learning_rate=0.001, loss='log_loss', max_depth=5,
+                           max_features='sqrt', max_leaf_nodes=None,
+                           min_impurity_decrease=0.001, min_samples_leaf=2,
+                           min_samples_split=5, min_weight_fraction_leaf=0.0,
+                           n_estimators=170, n_iter_no_change=None,
+                           random_state=224, subsample=0.45, tol=0.0001,
+                           validation_fraction=0.1, verbose=0,
+                           warm_start=False), plot=threshold, scale=1, save=False, fold=StratifiedKFold(n_splits=10, random_state=None, shuffle=False), fit_kwargs={}, plot_kwargs=None, groups=None, feature_name=None, label=False, verbose=False, system=True, display=None, display_format=None)
+2024-10-15 11:27:17,994:INFO:Checking exceptions
+2024-10-15 11:27:18,010:INFO:Preloading libraries
+2024-10-15 11:27:18,036:INFO:Copying training dataset
+2024-10-15 11:27:18,036:INFO:Plot type: threshold
+2024-10-15 11:27:18,101:INFO:Fitting Model
+2024-10-15 11:28:37,306:WARNING:c:\Users\El BAR\Documents\ds_projects\env\Lib\site-packages\sklearn\base.py:493: UserWarning: X does not have valid feature names, but GradientBoostingClassifier was fitted with feature names
+2024-10-15 11:28:37,306:WARNING:  warnings.warn(
+2024-10-15 11:28:37,338:INFO:Scoring test/hold-out set
+2024-10-15 11:28:37,882:INFO:Visual Rendered Successfully
+2024-10-15 11:28:38,056:INFO:plot_model() successfully completed......................................
+2024-10-15 11:28:38,079:INFO:Initializing plot_model()
+2024-10-15 11:28:38,079:INFO:plot_model(self=<pycaret.classification.oop.ClassificationExperiment object at 0x000002AFAC612FD0>, estimator=GradientBoostingClassifier(ccp_alpha=0.0, criterion='friedman_mse', init=None,
+                           learning_rate=0.001, loss='log_loss', max_depth=5,
+                           max_features='sqrt', max_leaf_nodes=None,
+                           min_impurity_decrease=0.001, min_samples_leaf=2,
+                           min_samples_split=5, min_weight_fraction_leaf=0.0,
+                           n_estimators=170, n_iter_no_change=None,
+                           random_state=224, subsample=0.45, tol=0.0001,
+                           validation_fraction=0.1, verbose=0,
+                           warm_start=False), plot=rfe, scale=1, save=False, fold=StratifiedKFold(n_splits=10, random_state=None, shuffle=False), fit_kwargs={}, plot_kwargs=None, groups=None, feature_name=None, label=False, verbose=False, system=True, display=None, display_format=None)
+2024-10-15 11:28:38,079:INFO:Checking exceptions
+2024-10-15 11:28:38,090:INFO:Preloading libraries
+2024-10-15 11:28:38,106:INFO:Copying training dataset
+2024-10-15 11:28:38,106:INFO:Plot type: rfe
+2024-10-15 11:28:38,256:INFO:Fitting Model
