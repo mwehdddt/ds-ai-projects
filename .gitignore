@@ -3,3 +3,5 @@ env/
 #datasets 
 
 data/
+notebooks/006-spam/logs
+notebooks/006-spam/results
