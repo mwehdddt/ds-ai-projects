@@ -22,3 +22,10 @@ Dataset: https://www.kaggle.com/datasets/mohansacharya/graduate-admissions
 This dataset contains information about students' academic records and other factors influencing admissions into graduate programs.
 
 Goal: Develop a model to predict the likelihood of admission based on the students' profiles, and identify the key features that significantly impact admission outcomes.
+
+## 004 Diamonds Prices Prediction
+Dataset: https://www.kaggle.com/datasets/shivam2503/diamonds
+
+This dataset contains information on the prices and attributes of diamonds, including features such as carat weight, cut, color, and clarity.
+
+Goal: Develop a model to predict diamond prices based on their characteristics
