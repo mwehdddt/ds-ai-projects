@@ -29,3 +29,11 @@ Dataset: https://www.kaggle.com/datasets/shivam2503/diamonds
 This dataset contains information on the prices and attributes of diamonds, including features such as carat weight, cut, color, and clarity.
 
 Goal: Develop a model to predict diamond prices based on their characteristics
+
+## CS:GO Round Winner Classification 
+
+Dataset : https://www.kaggle.com/datasets/christianlillelund/csgo-round-winner-classification
+
+This dataset includes information about rounds played in CS:GO, with attributes that can be used to classify the winning team based on various in-game events and player statistics.
+
+Goal : Build a model that can predict the round winner based on the statistics of each round 
