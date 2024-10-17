@@ -45,4 +45,4 @@ Dataset : https://www.kaggle.com/datasets/uciml/sms-spam-collection-dataset
 This dataset contains 5,572 SMS messages labeled as spam or ham. The goal of this project is to build a classifier that can accurately distinguish between spam and non-spam messages based on the message content.
 
 Goal : Fine-tune an LLM model (DistilBERT) for a binary classification task (spam detection)
-![Cutting meat with a big sword meme](data/006/readme.jpg)
+![Cutting meat with a big sword meme](https://pbs.twimg.com/media/Ey7d5x2WEAMxQMV.jpg)
