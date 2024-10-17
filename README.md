@@ -30,10 +30,19 @@ This dataset contains information on the prices and attributes of diamonds, incl
 
 Goal: Develop a model to predict diamond prices based on their characteristics
 
-## CS:GO Round Winner Classification 
+## 005 CS:GO Round Winner Classification 
 
 Dataset : https://www.kaggle.com/datasets/christianlillelund/csgo-round-winner-classification
 
 This dataset includes information about rounds played in CS:GO, with attributes that can be used to classify the winning team based on various in-game events and player statistics.
 
 Goal : Build a model that can predict the round winner based on the statistics of each round 
+
+## 006 Spam detection 
+
+Dataset : https://www.kaggle.com/datasets/uciml/sms-spam-collection-dataset
+
+This dataset contains 5,572 SMS messages labeled as spam or ham. The goal of this project is to build a classifier that can accurately distinguish between spam and non-spam messages based on the message content.
+
+Goal : Fine-tune an LLM model (DistilBERT) for a binary classification task (spam detection)
+![Cutting meat with a big sword meme](data/006/readme.jpg)
