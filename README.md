@@ -38,7 +38,7 @@ This dataset includes information about rounds played in CS:GO, with attributes 
 
 Goal : Build a model that can predict the round winner based on the statistics of each round 
 
-## 006 Spam detection 
+## 006 Spam Detection 
 
 Dataset : https://www.kaggle.com/datasets/uciml/sms-spam-collection-dataset
 
@@ -46,3 +46,9 @@ This dataset contains 5,572 SMS messages labeled as spam or ham. The goal of thi
 
 Goal : Fine-tune an LLM model (DistilBERT) for a binary classification task (spam detection)
 ![Cutting meat with a big sword meme](https://pbs.twimg.com/media/Ey7d5x2WEAMxQMV.jpg)
+
+## 007 Heart Failure Prediction
+
+Dataset : https://www.kaggle.com/datasets/andrewmvd/heart-failure-clinical-data
+
+This project aims to predict whether a patient will survive or die based on clinical features and health metrics. It explores different data balancing techniques (oversampling and undersampling) to improve model performance. After comparing both approaches, oversampling with SMOTE yielded better results in terms of accuracy, F1 score, and recall.
