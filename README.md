@@ -52,3 +52,9 @@ Goal : Fine-tune an LLM model (DistilBERT) for a binary classification task (spa
 Dataset : [Heart Failure Prediction](https://www.kaggle.com/datasets/andrewmvd/heart-failure-clinical-data)
 
 This project aims to predict whether a patient will survive or die based on clinical features and health metrics. It explores different data balancing techniques (oversampling and undersampling) to improve model performance. After comparing both approaches, oversampling with SMOTE yielded better results in terms of accuracy, F1 score, and recall.
+
+### 008 Mall Customer
+
+Dataset : [Mall Customer Segmentation Data](https://www.kaggle.com/datasets/vjchoudhary7/customer-segmentation-tutorial-in-python)
+
+In this project we use and compare different clustering techniques (K-Means,Agglomerative,DBSCAN) to segment customers and analyze the resulting clusters to derive actionable insights for marketing strategies.
